@@ -1,0 +1,12 @@
+[package]
+name = "stream-controller-plugin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "0.25.2"
+rand = "0.8.5"
+rgb565 = "0.1.3"
+stream-controller-rs = { path = "../stream-controller-rs" }
+tokio = "1.40.0"
+windows = { version = "0.58", features = ["Win32_Foundation", "Win32_Graphics_Gdi", "Win32_UI_WindowsAndMessaging"] }
