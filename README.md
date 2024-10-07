@@ -2,6 +2,8 @@
 
 I made this repo to show that using AI to aid in development is pretty cool, and already quite useful. The code here is not amazing, and not what I'd call production-ready... however it was made over the course of a couple hours in a single night. Most code was written by AI (specifically openai-o1-preview). 
 
+The AI-generated code is all in `src/capture.rs`.
+
 ## The goal
 
 I had a simple API, and I wanted o1-preview to take that and create a plugin that acted a bit like the windows "magnifier" tool: just show the screen on the buttons. The result, after 6 prompts and a very small amount of manual fixing (small errors made by o1 like forgetting unwraps, and some very simple integration into my API that I didn't bother getting into in the prompts), I ended up with something that just worked:
