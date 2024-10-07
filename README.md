@@ -1,6 +1,6 @@
 # What is this?
 
-I made this repo to show that using AI to aid in development is pretty cool, and already quite useful. The code here is not amazing, and not what I'd call production-ready... however it was made over the course of a couple hours in a single night. Most code was written by AI (specifically openai-o1-preview). 
+I made this repo to show that using AI to aid in development is pretty cool, and already quite useful. The code here is not amazing, and not what I'd call production-ready... however it was made over the course of a couple hours in a single night. And the first functional example was within a couple minutes. The rest of the time was spent refining, but all "core-implementation" tasks were delegated to the AI (specifically openai-o1-preview). 
 
 The AI-generated code is all in `src/capture.rs`.
 
