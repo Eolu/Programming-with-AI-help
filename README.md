@@ -27,7 +27,7 @@ Now for the good stuff: below I've pasted my entire transcript and conversation 
 - The first prompt gave the core ask for functionality. This gave me something with a few syntax errors, but once I fixed those it worked... almost. There was a bug in the display the ended up being a lack of account for DPI-scaling, and also a lack of a mouse-pointer on-screen.
 - Prompt 2 asked to show the mouse-pointer. This worked but the pointer was not centered properly.
 - Prompt 3 and 4 asked to fix the problem with the display. Neither of them solved it, but they interestingly provided some fixes for problems I hadn't yet realized were problems.
-- Prompt 5 gave the description of the problem in more detail (I gacve specific information about the way in which the screen was incorrectly rendering). At this point openai-o1 correctly guessed that the issue had to do with DPI-scaling, and gave the solution.
+- Prompt 5 gave the description of the problem in more detail (I gave specific information about the way in which the screen was incorrectly rendering). At this point openai-o1 correctly guessed that the issue had to do with DPI-scaling, and gave the solution.
 - Prompt 6 asked to fix the off-centered mouse-pointer. The correct solution was given right off the bat.
 
 ---
